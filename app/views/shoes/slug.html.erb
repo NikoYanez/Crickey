@@ -1,0 +1,44 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @shoe.name %>
+</p>
+
+<p>
+  <strong>Price:</strong>
+  <%= @shoe.price %>
+</p>
+
+<p>
+  <strong>Quantity:</strong>
+  <%= @shoe.quantity %>
+</p>
+
+<p>
+  <strong>Sale start:</strong>
+  <%= @shoe.sale_start %>
+</p>
+
+<p>
+  <strong>Sale end:</strong>
+  <%= @shoe.sale_end %>
+</p>
+
+<p>
+  <strong>Slug:</strong>
+  <%= @shoe.slug %>
+</p>
+
+<p>
+  <strong>Special:</strong>
+  <%= @shoe.special %>
+</p>
+
+<p>
+  <strong>Keyword:</strong>
+  <%= @shoe.keyword %>
+</p>
+
+<%= link_to 'Edit', edit_shoe_path(@shoe) %> |
+<%= link_to 'Back', shoes_path %>

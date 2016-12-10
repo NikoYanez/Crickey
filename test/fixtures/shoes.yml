@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  price: 1
+  quantity: 1
+  sale_start: 2016-11-14 19:03:57
+  sale_end: 2016-11-14 19:03:57
+  slug: MyString
+  special: false
+  keyword: MyString
+
+two:
+  name: MyString
+  price: 1
+  quantity: 1
+  sale_start: 2016-11-14 19:03:57
+  sale_end: 2016-11-14 19:03:57
+  slug: MyString
+  special: false
+  keyword: MyString
